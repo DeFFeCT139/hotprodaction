@@ -848,7 +848,7 @@ table{
         padding-bottom: 15px;
     }
     .footer-glav{
-        height: 250px;
+        height: 255px;
     }
     .position-left{
         margin-left: -10px;
@@ -896,5 +896,10 @@ table{
     }
     .zaglv-site{
         margin-top: 150px;
+    }
+}
+@media screen and (max-width: 568px){
+    .content-one{
+        height: 103vh;
     }
 }
