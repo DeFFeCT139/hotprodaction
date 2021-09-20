@@ -5,12 +5,14 @@
     <title>Главная</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
   </head>
   <body>
         <header>
           <div class="header-glav">
             <div class="verh-nav">
+              <div class="menu-nav">
+                <img class="btn-menu" src="img/menu.png" alt="">
+              </div>
               <div class="logo-glav">
                 <a href="index.html">
                   <div><img src="img/logo-header.png" alt="logo" class="logo-glav-img"></div>
@@ -41,6 +43,9 @@
                 <a class="cilki-nav-vid niz" href="">Lifestule</a>
               </div>
             </div>
+          </div>
+          <div class="lev-panel net-panel">
+            <img class="btn-menu net-panel-one" src="img/menu.png" alt="">
           </div>
         </header>
         <div class="content-one">
@@ -266,5 +271,18 @@
             </div>
           </div>
         </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+          $(document).on('click', '.btn-menu', function () {
+            $('.lev-panel').removeClass('net-panel');
+            $('.content-one').addClass('content-one-opas');
+            $('.header-glav').addClass('content-one-opas2');
+          });
+          $(document).on('click', '.net-panel-one', function () {
+            $('.lev-panel').addClass('net-panel');
+            $('.content-one').removeClass('content-one-opas');
+            $('.header-glav').removeClass('content-one-opas2');
+          });
+        </script>
   </body>
 </html>

@@ -404,7 +404,7 @@ a{
     width: 100%;
     height: 170px;
     position: fixed;
-    z-index: 999;
+    z-index: 901;
 }
 .logo-glav-img{
     width: 230px;
@@ -802,6 +802,9 @@ table{
     .serch-nav{
         display: none;
     }
+    .menu-nav{
+        margin-right: auto;
+    }
 }
 .last-text-none{
     display: none;
@@ -889,6 +892,14 @@ table{
     .poloska-niz-content{
         display: none;
     }
+    .logo-glav{
+        width: 150px;
+    }
+    .btn-menu{
+        margin-top: 20px !important;
+        margin-left: 19px !important;
+        width: 25px !important;
+    }
 }
 @media screen and (max-width: 374px){
     .poloska-niz-content{
@@ -902,4 +913,28 @@ table{
     .content-one{
         height: 103vh;
     }
+}
+.btn-menu{
+    margin-top: 25px;
+    margin-left: 19px;
+    width: 35px;
+}
+.lev-panel{
+    width: 75%;
+    height: 100%;
+    position: fixed;
+    background-color: #141720;
+    z-index: 902;
+}
+.net-panel{
+    display: none;
+}
+.content-one-opas{
+    opacity: 0.5;
+}
+.content-one-opas2{
+    background-color: #13151d;
+}
+.net-panel-one{
+    margin-left: 75% !important;
 }
