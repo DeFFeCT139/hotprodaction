@@ -1,0 +1,676 @@
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: #23262F;
+    font-family: 'Manrope', sans-serif;
+    color: #D1D1D1;
+}
+.bodyVhod{
+    color: white;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #101115;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #23262F;
+    border-radius: 20px;
+    border: 3px solid #101115;
+  }
+a{
+    color: #D1D1D1;
+    text-decoration: none;
+}
+.conteyner{
+    max-width: 380px !important;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.logo-text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.logo{
+    margin-top: 50px;
+}
+.zaglav-login{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.rad{
+    color: red;
+}
+.entrance{
+    margin-top: 100px;
+}
+.btn{
+    display: flex;
+    width: 380px;
+    background-color: white;
+    font-size: 19px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.face-btn{
+    padding-left: 55px;
+    color: white;
+    background-color: #4E6297;
+}
+.naz-comp{
+    margin-top: 18px;
+    font-weight: 600;
+}
+.google{
+    margin-top: 3px; 
+    margin-left: 15px;
+}
+.apple{
+    margin-top: 4px; 
+    margin-left: 15px;
+}
+.google-btn{
+    padding-left: 80px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.apple-btn{
+    padding-left: 85px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.btns{
+    margin-top: 50px;
+}
+.left-right-line-header {
+    margin-top: 60px;
+    color: #9C9D9F;
+    text-align: center;
+}
+.left-right-line-header:before {
+    content: "";
+    border-bottom: 1px solid #9C9D9F;
+    width: 155px;
+    height: 0.5em;
+    position: absolute;
+    top: 0px;
+    margin-left: -170px;
+    margin-top: 665px;
+}
+  .left-right-line-header:after {
+    content: "";
+    border-bottom: 1px solid #9C9D9F;
+    width: 155px;
+    height: 0.5em;
+    position: absolute;
+    top: 0px;
+    margin-left: 15px;
+    margin-top: 665px;
+}
+.npt{
+    font-size: 16px;
+    color:#9C9D9F;
+    width: 355px;
+    height: 61px;
+    background-color: #23262F;
+    border-radius: 7px;
+    border: 0;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    outline: none;
+}
+.galka-logo{
+    border: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 2px;
+}
+.galka-logo-text{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.galks-block{
+    display: flex;
+}
+.one-elment{
+    display: flex;
+}
+.password-bad{
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: auto;
+}
+.register-text{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+.register-ccilt{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.last-element{
+    margin-bottom: 30px;
+}
+.entrance-bbttnn{
+    margin-top: 4px; 
+    margin-left: 15px;
+}
+.entrance-btn{
+    background-color: #ED3128;
+    color: white;
+    margin-top: 10px;
+    padding-left: 150px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.two-elment{
+    margin-top: 40px;
+}
+.entrance-ccilt{
+    margin-left: auto;
+    margin-right: 105px;
+}
+.two-register-text{
+    margin-left: 105px;
+}
+.logo-img{
+    margin-left:20px; 
+    width:349px;
+}
+@media screen and (max-width: 960px) {
+    .logo-img{
+        margin-left:30px; 
+        width:260px;
+    }
+    .conteyner{
+        max-width: 320px !important;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .logo-text{
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 5px;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .zaglav-login{
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-top: 5px;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .rad{
+        color: red;
+    }
+    .entrance{
+        margin-top: 30px;
+    }
+    .btn{
+        display: flex;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        font-size: 19px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+    .face-btn{
+        padding-left: 27px;
+        color: white;
+        background-color: #4E6297;
+    }
+    .naz-comp{
+        font-size: 16px;
+        margin-top: 11px;
+        font-weight: 600;
+    }
+    .google{
+        margin-top: 0px; 
+        margin-left: 15px;
+    }
+    .apple{
+        margin-top: 4px; 
+        margin-left: 15px;
+    }
+    .google-btn{
+        padding-left: 47px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .apple-btn{
+        padding-left: 53px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .btns{
+        margin-top: 30px;
+    }
+    .left-right-line-header {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #9C9D9F;
+        text-align: center;
+    }
+    .left-right-line-header:before {
+        content: "";
+        border-bottom: 1px solid #9C9D9F;
+        width: 110px;
+        height: 0.5em;
+        position: absolute;
+        top: 0px;
+        margin-left: -125px;
+        margin-top: 413px;
+    }
+      .left-right-line-header:after {
+        content: "";
+        border-bottom: 1px solid #9C9D9F;
+        width: 110px;
+        height: 0.5em;
+        position: absolute;
+        top: 0px;
+        margin-left: 15px;
+        margin-top: 413px;
+    }
+    .npt{
+        margin-left: 20px;
+        font-size: 16px;
+        color:#9C9D9F;
+        width: 253px;
+        height: 44px;
+        background-color: #23262F;
+        border-radius: 7px;
+        border: 0;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        outline: none;
+    }
+    .galka-logo{
+        border: 0;
+        width: 17px;
+        height: 17px;
+        border-radius: 2px;
+    }
+    .galka-logo-text{
+        font-size: 14px;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    .galks-block{
+        display: flex;
+        margin-left: 20px;
+    }
+    .one-elment{
+        display: flex;
+    }
+    .password-bad{
+        color: red;
+        font-size: 14px;
+        margin-top: 4px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .register-text{
+        font-size: 14px;
+        margin-top: 4px;
+        margin-left: 23px;
+    }
+    .register-ccilt{
+        margin-left: auto;
+        margin-right: 23px;
+    }
+    .last-element{
+        margin-bottom: 30px;
+    }
+    .entrance-bbttnn1{
+        margin-top: 4px; 
+        margin-left: -58px;
+    }
+    .entrance-bbttnn{
+        margin-top: 4px; 
+        margin-left: -34px;
+    }
+    .entrance-btn{
+        background-color: #ED3128;
+        color: white;
+        margin-top: 10px;
+        padding-left: 150px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .two-elment{
+        margin-top: 10px;
+    }
+    .entrance-ccilt{
+        margin-left: auto;
+        margin-right: 75px;
+    }
+    .two-register-text{
+        margin-left: 75px;
+    }
+    .logo1{
+        width: 40px;
+    }
+    .logo2{
+        width: 15px;
+    }
+    .logo3{
+        width: 15px;
+    }
+}
+.header-glav{
+    background-color: #141720;
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    z-index: 999;
+}
+.logo-glav-img{
+    width: 230px;
+}
+.logo-glav{
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.logo-text-glav{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0px;
+    color: #D1D1D1;
+}
+.verh-nav{
+    display: flex;
+}
+.serch{
+    height: 48px;
+    width: 230px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+.serch-nav{
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+}
+.btn-serch{
+    height: 50px;
+    width: 80px;
+    border: 0px;
+    background-color: #ED3128;
+    outline: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+.ccilki-nav-verh{
+    margin-top: 57px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+.cilki-nav-vid{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.niz-nav{
+    margin-top: 20px;
+   text-align: center;
+}
+.niz{
+    font-size: 15.5px;
+}
+.content-one{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/6e50caa7bf52e3e571b37eaf064ad7e0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.zaglv-site{
+    margin-top: 350px;
+}
+.boleshe{
+    font-size: 46px;
+    color: white !important;
+    opacity: 1 !important;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.messto-zag-two{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.btn-zag{
+    text-align: center;
+    display: flex;
+    width: 540px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stat{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pazm{
+    width: 250px;
+    padding-left: 0px;
+}
+.pazm-one{
+    padding-left: 35px;
+}
+.pazm-two{
+    padding-left: 45px;
+}
+.poloska-niz-content{
+    height: 100px;
+    width:800px;
+    background-color: #141720;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.cennick{
+    color: white;
+    font-size: 44px;
+    margin-left: 15px;
+    margin-right: 165px;
+    margin-top: 26px;
+}
+.text-cennick{
+    margin-left: 150px;
+    text-align: right;
+    margin-top: 30px;
+}
+.position-content{
+    position: absolute;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    left: 0;
+    height: 100%;
+    right: 0;
+}
+.zaglsv-element-two{
+    font-size: 36px;
+    margin-top: 80px;
+    text-align: center;
+}
+.block{
+    width: 250px;
+    height: 280px;
+    max-width: 250px;
+    max-height: 280px;
+    min-width: 250px;
+    min-height: 280px;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition-duration: 0.7s;
+}
+.block:hover{
+    opacity: 1;
+}
+.block-two{
+    margin-top: 210px !important;
+}
+.text-block{
+    position: absolute;
+    margin-top: 230px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.block2{
+    width: 250px;
+    height: 280px;
+    max-width: 250px;
+    max-height: 280px;
+    min-width: 250px;
+    min-height: 280px;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+.mesto-blocks{
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-top: 30px;
+    display: flex;
+    margin-right: 90px;
+    margin-bottom: 50px;
+}
+.smotor-esho{
+    width: 200px;
+    padding-left: 33px;
+}
+.mesto-esho{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.footer-glav{
+    background-color: #191A1F;
+    width: 100%;
+    height: 880px;
+}
+.position-phone{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.position-text{
+    margin-top: 50px;
+}
+.style-h-footer{
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.style-p-footer{
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.googleplay-img{
+    height: 78px;
+    margin-top: -3px;
+}
+.googleplay{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.appstore{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.poloska-niz-footer{
+    border-bottom: 2px solid #222328;
+    padding-bottom: 50px;
+}
+th{
+    font-size: 18px;
+    padding-left: 120px;
+    margin-left: 150px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+td{
+    font-size: 16px;
+    padding-left: 120px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+table{
+    width: 100%;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.foter-con{
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.position-left{
+    margin-left: 100px;
+}
+.position-right{
+    margin-left: auto;
+    margin-right: 100px;
+}
