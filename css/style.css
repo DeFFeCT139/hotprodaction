@@ -412,7 +412,7 @@ a{
 .logo-glav{
     width: 230px;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .logo-text-glav{
     text-align: center;
@@ -424,7 +424,7 @@ a{
     display: flex;
 }
 .serch{
-    height: 48px;
+    height: 38px;
     width: 230px;
     border: 0px;
     outline: 0px;
@@ -433,11 +433,11 @@ a{
 }
 .serch-nav{
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 44px;
     display: flex;
 }
 .btn-serch{
-    height: 50px;
+    height: 40px;
     width: 80px;
     border: 0px;
     background-color: #ED3128;
@@ -449,7 +449,7 @@ a{
 .ccilki-nav-verh{
     margin-top: 57px;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .cilki-nav-vid{
     margin-left: 10px;
@@ -557,7 +557,6 @@ a{
     max-height: 280px;
     min-width: 250px;
     min-height: 280px;
-    background-color: white;
     opacity: 0.5;
     margin-left: 10px;
     margin-right: 10px;
@@ -589,12 +588,16 @@ a{
     margin-top: 0px;
     border-radius: 8px;
 }
+.center-block{
+    margin-left: auto;
+    margin-right: auto;
+}
 .mesto-blocks{
     flex-wrap: wrap;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: 30px;
     display: flex;
-    margin-right: 90px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 .smotor-esho{
@@ -673,4 +676,225 @@ table{
 .position-right{
     margin-left: auto;
     margin-right: 100px;
+}
+@media screen and (max-width: 1252px){
+    .btn-serch{
+        display: none;
+    }
+    .serch{
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+@media screen and (max-width: 1172px){
+    .none{
+        display: none;
+    }
+}
+@media screen and (max-width: 1324px){
+    .position-phone{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 1279px){
+    .position-phone{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1215px){
+    .position-phone{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 1177px){
+    .googleplay-img2{
+        height: 54px;
+    }
+    .googleplay-img{
+        height: 58px;
+    }
+    .style-h-footer{
+        margin-bottom: 10px;
+    }
+    .position-phone{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 1060px){
+    td{
+        padding-left: 80px;
+    }
+    th{
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width: 1003px){
+    .style-h-footer{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 960px){
+    .galks-block-poloska-niz-footer{
+        display: none;
+    }
+    .poloska-niz-footer{
+        padding-top: 20px;
+    }
+    .footer-glav{
+        height: 440px;
+    }
+    .mesto-blocks{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .niz-nav{
+        display: none;
+    }
+    .header-glav{
+        height: 85px;
+    }
+    .logo-glav{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .ccilki-nav-verh{
+        margin-right: 20px;
+    }
+    .logo-text-glav{
+        display: none;
+    }
+    .serch-nav{
+        margin-top: 24px;
+    }
+    .ccilki-nav-verh{
+        margin-top: 37px;
+    }
+    .block{
+        opacity: 1;
+    }
+    .zaglsv-element-two{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 933px){
+    .footer-glav{
+        height: 470px;
+    }
+}
+@media screen and (max-width: 895px){
+    .footer-glav{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 800px){
+    .poloska-niz-content{
+       width: 500px;
+    }
+    .text-cennick{
+        margin-left: 60px;
+        font-size: 14px;
+    }
+    .cennick{
+        font-size: 32px;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 693px){
+    .serch-nav{
+        display: none;
+    }
+}
+.last-text-none{
+    display: none;
+}
+@media screen and (max-width: 775px){
+    td{
+        padding-left: 50px;
+    }
+    th{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 646px){
+    td{
+        padding-left: 25px;
+    }
+    th{
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width: 548px){
+    .btn-zag{
+        display: block;
+        width: 250px;
+    }
+    .boleshe{
+        font-size: 32px;
+    }
+    .messto-zag-two{
+        font-size: 15px;
+    }
+}
+.blocks-foot-block{
+    display: none;
+}
+@media screen and (max-width: 568px){
+    .table-niz{
+        display: none;
+    }
+    .blocks-foot-block{
+        display: block;
+    }
+    .poloska-niz-footer{
+        padding-bottom: 15px;
+    }
+    .footer-glav{
+        height: 250px;
+    }
+    .position-left{
+        margin-left: -10px;
+    }
+    .position-right{
+        margin-right: 10px;
+    }
+}
+.blocks-foot{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 500px){
+    .poloska-niz-content{
+        width: 100%;
+    }
+    .zaglv-site{
+        margin-top: 250px;
+    }
+    .messto-zag-two{
+        font-size: 12px;
+    }
+    .zaglsv-element-two{
+        font-size: 26px;
+    }
+    .logo-glav-img{
+        width: 150px;
+    }
+    .header-glav{
+        height: 65px;
+    }
+    .ccilki-nav-verh{
+        margin-top: 25px;
+    }
+    .poloska-niz-content{
+        display: none;
+    }
+}
+@media screen and (max-width: 374px){
+    .poloska-niz-content{
+        width: 100%;
+    }
+    .zaglv-site{
+        margin-top: 150px;
+    }
 }
