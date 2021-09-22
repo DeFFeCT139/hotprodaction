@@ -970,6 +970,11 @@ table{
     .serch-nav2{
         margin-top: 10px;
     }
+    .cilkl-vse-lexpan2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
 }
 .net-panel{
     display: none;
@@ -1067,7 +1072,4 @@ table{
 .cilkl-vse-lexpan{
     margin-top:15px;
     border-top: 2px solid #222328;
-}
-.cilkl-vse-lexpan2{
-    padding-top: 50px;
 }
