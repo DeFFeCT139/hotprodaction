@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-  <body>
+  <body class="body">
         <header>
           <div class="header-glav">
             <div class="verh-nav">
@@ -25,27 +25,60 @@
               </div>
               <din class="ccilki-nav-verh">
                 <a class="cilki-nav-vid none" href="">HotProd Бизнес</a>
-                <a class="cilki-nav-vid none" href="">Стать исполнителем</a>
+                <a class="cilki-nav-vid none" href="one/index.html">Стать исполнителем</a>
                 <a class="cilki-nav-vid none" href="">Разместить заказ</a>
                 <a class="cilki-nav-vid" href="login/index.html">Войти</a>
               </din>
             </div>
             <div class="niz-nav">
-              <div>
-                <a class="cilki-nav-vid niz" href="">Графика / дизайн</a>
-                <a class="cilki-nav-vid niz" href="">Диджитал / Маркейтинг</a>
-                <a class="cilki-nav-vid niz" href="">Копирайтер / Переводчик</a>
-                <a class="cilki-nav-vid niz" href="">Визуал / Анимация </a>
-                <a class="cilki-nav-vid niz" href="">Музыка / Аудио </a>
-                <a class="cilki-nav-vid niz" href="">Программирование / Технологии </a>
-                <a class="cilki-nav-vid niz" href="">Offline</a>
-                <a class="cilki-nav-vid niz" href="">Business</a>
-                <a class="cilki-nav-vid niz" href="">Lifestule</a>
-              </div>
+              <div class="btn-left"></div>
+              <div class="wraper">
+                <div class="slider-con">
+                    <div class="slider-track">
+                        <div class="slider-item slider-item1"><a class="cilki-nav-vid niz " href="">Графика / дизайн</a></div>
+                        <div class="slider-item slider-item2"><a class="cilki-nav-vid niz " href="">Диджитал / Маркейтинг</a></div>
+                        <div class="slider-item slider-item3"><a class="cilki-nav-vid niz " href="">Копирайтер / Переводчик</a></div>
+                        <div class="slider-item slider-item4"><a class="cilki-nav-vid niz " href="">Визуал / Анимация </a></div>
+                        <div class="slider-item slider-item5"> <a class="cilki-nav-vid niz" href="">Музыка / Аудио </a></div>
+                        <div class="slider-item slider-item6"> <a class="cilki-nav-vid niz " href="">Программирование / Технологии </a></div>
+                        <div class="slider-item slider-item7"> <a class="cilki-nav-vid niz " href="">Offline</a></div>
+                        <div class="slider-item slider-item8"> <a class="cilki-nav-vid niz " href="">Business</a></div>
+                        <div class="slider-item slider-item9"> <a class="cilki-nav-vid niz " href="">Lifestule</a></div>
+                    </div>
+                </div>
+            </div> 
+            <div class="btn-ritgh"></div>
             </div>
           </div>
           <div class="lev-panel net-panel">
             <img class="btn-menu net-panel-one" src="img/menu.png" alt="">
+            <div class="logo-glav">
+              <a href="index.html">
+                <div><img src="img/logo-header.png" alt="logo" class="logo-glav-img"></div>
+                <p class="logo-text-glav">Горячий продакшн - здесь и сейчас!</p>
+            </a>
+            </div>
+            <div class="serch-nav2">
+              <input class="serch2">
+              <button class="btn-serch">Найти</button>
+            </div>
+            <div class="poloska-niz-footer cilkl-vse-lexpan">
+                <a class="cilki-nav-vid ccilki-otstr-levpan" href="">HotProd Бизнес</a><br><br>
+                <a class="cilki-nav-vid ccilki-otstr-levpan" href="one/index.html">Стать исполнителем</a><br><br>
+                <a class="cilki-nav-vid ccilki-otstr-levpan" href="">Разместить заказ</a><br><br>
+                <a class="cilki-nav-vid ccilki-otstr-levpan" href="login/index.html">Войти</a><br>
+            </div>
+            <div class="poloska-niz-footer .cilkl-vse-lexpan2">
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Графика / дизайн</a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Диджитал / Маркейтинг</a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Копирайтер / Переводчик</a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Визуал / Анимация </a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Музыка / Аудио </a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Программирование / Технологии </a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Offline</a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Business</a><br><br>
+              <a class="cilki-nav-vid niz ccilki-otstr-levpan" href="">Lifestule</a><br>
+            </div>
           </div>
         </header>
         <div class="content-one">
@@ -272,16 +305,19 @@
           </div>
         </footer>
         <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/script.js.js"></script>
         <script>
           $(document).on('click', '.btn-menu', function () {
             $('.lev-panel').removeClass('net-panel');
             $('.content-one').addClass('content-one-opas');
             $('.header-glav').addClass('content-one-opas2');
+            $('body').addClass('menu-shown');
           });
           $(document).on('click', '.net-panel-one', function () {
             $('.lev-panel').addClass('net-panel');
             $('.content-one').removeClass('content-one-opas');
             $('.header-glav').removeClass('content-one-opas2');
+            $('body').removeClass('menu-shown');
           });
         </script>
   </body>
