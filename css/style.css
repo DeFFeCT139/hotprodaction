@@ -424,14 +424,21 @@ a{
     display: flex;
 }
 .serch{
-    height: 38px;
+    color: #D1D1D1;
+    font-size: 16px;
+    background-color: #23262f;
+    height: 37px;
     width: 230px;
-    border: 0px;
+    border: 1px solid #424242;
     outline: 0px;
     border-radius: 5px 0px 0px 5px;
     padding-left: 20px;
 }
 .serch2{
+    color: #D1D1D1;
+    font-size: 14px;
+    border: 1px solid #424242;
+    background-color: #23262f;
     height: 33px;
     width: 100%;
     border: 0px;
@@ -455,7 +462,7 @@ a{
     height: 40px;
     width: 80px;
     border: 0px;
-    background-color: #ED3128;
+    background-color: #ca1b13;
     outline: 0px;
     color: white;
     cursor: pointer;
@@ -465,7 +472,7 @@ a{
     height: 35px;
     width: 80px;
     border: 0px;
-    background-color: #ED3128;
+    background-color: #ca1b13;
     outline: 0px;
     color: white;
     cursor: pointer;
@@ -823,6 +830,9 @@ table{
     .poloska-niz-content{
        width: 500px;
     }
+    .poloska-niz-content-two{
+        width: 500px;
+    }
     .text-cennick{
         margin-left: 60px;
         font-size: 14px;
@@ -888,7 +898,7 @@ table{
         padding-bottom: 15px;
     }
     .footer-glav{
-        height: 255px;
+        height: 100%;
     }
     .position-left{
         margin-left: -10px;
@@ -906,6 +916,9 @@ table{
 }
 @media screen and (max-width: 500px){
     .poloska-niz-content{
+        width: 100%;
+    }
+    .poloska-niz-content-two{
         width: 100%;
     }
     .zaglv-site{
@@ -929,6 +942,9 @@ table{
     .poloska-niz-content{
         display: none;
     }
+    .poloska-niz-content-two{
+        display: none;
+    }
     .logo-glav{
         width: 150px;
     }
@@ -940,6 +956,9 @@ table{
 }
 @media screen and (max-width: 374px){
     .poloska-niz-content{
+        width: 100%;
+    }
+    .poloska-niz-content-two{
         width: 100%;
     }
     .zaglv-site{
@@ -963,7 +982,7 @@ table{
     background-color: #141720;
     z-index: 902;
 }
-@media screen and (max-width: 370px){
+@media screen and (max-width: 330px){
     .lev-panel{
         width: 85% !important;
     }
@@ -1072,4 +1091,255 @@ table{
 .cilkl-vse-lexpan{
     margin-top:15px;
     border-top: 2px solid #222328;
+}
+.block-twoo{
+    width: 250px;
+    height: 350px;
+    max-width: 250px;
+    max-height: 350px;
+    min-width: 250px;
+    min-height: 350px;
+    background-color: #23262F;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #33343a;
+}
+.block21{
+    width: 250px;
+    height: 175px;
+    max-width: 250px;
+    max-height: 175px;
+    min-width: 250px;
+    min-height: 175px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0 0;
+}
+.logo-avatar{
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    margin-top: 0px;
+    border-radius: 17px;
+}
+.user-logo-name{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.name-avatar{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.naz-blok-two{
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.star{
+    width: 20px;
+}
+.ocenka{
+    color: #FFC107;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.skobki{
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.niz-block-twoo{
+    border-top: 1px solid #33343a;
+    margin-top: 12px;
+    display: flex;
+}
+.cennick-blok-twoo{
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+.like-block-twoo{
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.text-right{
+    text-align: left !important;
+    margin-left: 50px;
+}
+.content-one-two{
+    width:65%;
+    height: 70vh;
+    margin-left: auto;
+    background-image: url(../img/6e50caa7bf52e3e571b37eaf064ad7e0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.poloska-niz-content-two{
+    height: 100px;
+    width:800px;
+    background-color: #141720;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 29.96vh;
+    left: 35%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.btn-zag-two{
+    text-align: center;
+    display: flex;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zaglv-site-two{
+    margin-top: 350px;
+    width: 65%;
+    margin-left: auto;
+}
+.two-content-con{
+    width: 100%;
+    height: 70vh;
+    background-color: #141720;
+}
+.ccilki-nav-verh-two{
+    margin-top: 57px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.later{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.bal{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.avatar-nav{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.lev-chast-nav{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 46px;
+}
+@media screen and (max-width:960px){
+    .lev-chast-nav{
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+    .none-two{
+        display: none;
+    }
+    .content-one-two{
+        width:100%;
+        height: 100vh;
+        margin-left: auto;
+        background-image: url(../img/6e50caa7bf52e3e571b37eaf064ad7e0.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .zaglv-site-two{
+        width: 100%;
+    }
+    .poloska-niz-content-two{
+        height: 100px;
+        width:800px;
+        background-color: #141720;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .two-content-con{
+        height: 100vh;
+    }
+    .hello-name{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .lev-chast-nav{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+}
+.hello-name{
+    width: 29.8%;
+    margin-top: 190px;
+    margin-left: 50px;
+    height: 50vh;
+    position: absolute;
+    background-image: url(../img/Заказчик\ главная.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hello{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.text-hello{
+    text-align: center;
+    opacity: 0.8;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pazm-one-two{
+    font-size: 16px !important;
+}
+@media screen and (max-width:960px){
+    .center-block-two{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .poloska-niz-content-two{
+        width: 100%;
+    }
+}
+.last-ssilcki{
+    display:none;
+    text-align: center;
+}
+.last-silcka{
+    margin-bottom: 10px;
+}
+.none-rit{
+    display: grid !important;
 }
