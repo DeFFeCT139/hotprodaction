@@ -1339,6 +1339,64 @@ table{
         width: 100%;
     }
 }
+@media screen and (max-width:500px){
+    .poloska-niz-content-two{
+       display: none;
+    }
+}
+@media screen and (max-width:1340px){
+    .btn-serch-two{
+       display: none;
+    }
+}
+@media screen and (max-width:1258px){
+    .serch-two{
+        width: 170px;
+    }
+}
+@media screen and (max-width:1196px){
+    .serch-two{
+        margin-left: -35px;
+    }
+}
+@media screen and (max-width:1166px){
+    .avatar-nav{
+       margin-left: 20px;
+    }
+}
+@media screen and (max-width:1134px){
+    .lev-chast-nav{
+       margin-right: 10px;
+    }
+    .logo-glav{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:1054px){
+    .serch-two{
+       width: 115px;
+    }
+}
+@media screen and (max-width:1000px){
+    .avatar-nav{
+       margin-left: 5px;
+    }
+    .bal{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:960px){
+    .serch-two{
+        width: 230px;
+        margin-left: 0px;
+    }
+    .bal{
+        margin-left: 15px;
+    }
+    .avatar-nav{
+        margin-left: 25px; 
+     }
+}
 .last-ssilcki{
     display:none;
     text-align: center;
@@ -1348,4 +1406,49 @@ table{
 }
 .none-rit{
     display: grid !important;
+}
+@media screen and (max-height:935px){
+    .zaglv-site-two{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-height:870px){
+    .zaglv-site-two{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-height:798px){
+    .zaglv-site-two{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-height:726px){
+    .btn-zag-two{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-height:674px){
+    .poloska-niz-content-two{
+        height: 80px;
+    }
+}
+@media screen and (max-height:965px){
+    .hello-name{
+        height: 47vh;
+    }
+}
+@media screen and (max-height:844px){
+    .hello-name{
+        height: 44vh;
+    }
+}
+@media screen and (max-height:746px){
+    .hello-name{
+        height: 44vh;
+    }
+}
+@media screen and (max-height:726px){
+    .hello-name{
+        height: 40vh;
+    }
 }
